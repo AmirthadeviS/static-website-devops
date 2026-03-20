@@ -52,19 +52,53 @@ static-website-devops/
 ## 🌐 Live Output
 
 The application runs locally at:
-👉 http://localhost:8080
+👉(http://localhost:8082/)
 
 ---
 
 ## 📸 Screenshots
 
-✔️ GitHub Repository
-✔️ Jenkins Pipeline (Build Success)
-✔️ Console Output Logs
-✔️ Docker Running Container
-✔️ Final Website Output
+## 📁 GitHub Repository
+![GitHub Repo](https://github.com/user-attachments/assets/667d0e2e-e3cb-4505-9f3b-cbee623c8025)
 
-*(Add screenshots here by dragging images into GitHub README)*
+## 🚀 Jenkins Pipeline (Build Success)
+![Jenkins Pipeline](https://github.com/user-attachments/assets/bff4bb55-475f-4fec-ac63-11d5b4bf19ce)
+
+✔️ Pipeline executed successfully using Jenkins CI/CD
+
+---
+
+## 📜 Console Output Logs
+
+### 🔹 Build Start
+![Build Start](https://github.com/user-attachments/assets/ad1c0fdb-4b39-4ca7-9568-8fbc1c2a74d5)
+
+### 🔹 Docker Build
+![Docker Build](https://github.com/user-attachments/assets/d770c363-f567-4043-b000-08e428ce87f6)
+
+### 🔹 Build Success
+![Success](https://github.com/user-attachments/assets/d484c876-3bf9-4665-8b6e-79af32c98e4a)
+
+✔️ Logs confirm successful execution of all pipeline stages
+
+---
+
+## 🐳 Docker Running Container
+![Docker Container](https://github.com/user-attachments/assets/caec93c8-83ec-4c39-a3a9-03c864440a2e)
+
+✔️ Container successfully running after deployment  
+
+This confirms that the Docker container is up and running successfully after the CI/CD pipeline execution.
+
+---
+
+## 🌐 Final Website Output
+![Website Output](https://github.com/user-attachments/assets/4e71cc8a-725a-4c6c-b4e5-1167f36d146a)
+
+✔️ Website successfully deployed and accessible  
+
+This confirms that the application is running successfully after the complete CI/CD pipeline execution.
+
 
 ---
 

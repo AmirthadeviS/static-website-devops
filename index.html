@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">    
+<title>DevOps Deployment Project</title>
+
+<style>
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    text-align:center;
+    margin:0;
+    padding:0;
+    color:white;
+
+    background: linear-gradient(-45deg, #0d1117, #161b22, #0d1117, #010409);
+    background-size: 400% 400%;
+
+    animation: bgMove 12s ease infinite;
+}
+@keyframes bgMove{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+/* Header */
+header{
+    background: white;
+    padding:15px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+header h1{
+    color:#0d1117;
+    text-shadow:none;
+}
+h1{ 
+    color:#58a6ff; 
+    font-size:34px;
+    margin-top:20px;
+    text-shadow:0 0 10px rgba(88,166,255,0.6);
+}
+
+h2{
+    font-size:22px;
+    margin-top:25px;
+    color:#c9d1d9;
+}
+
+/* TEXT */
+p{ 
+   font-size:16px;
+   color:#8b949e;
+   margin:6px;
+}
+
+/* Container */
+.container{
+    width:85%;
+    margin:30px auto;
+    background:#161b22;
+    padding:25px;
+    border-radius:15px;
+    border:1px solid #30363d;
+
+    /* 🔥 better glow depth */
+    box-shadow: 0 0 25px rgba(88,166,255,0.15),
+                0 0 60px rgba(88,166,255,0.05);
+}
+
+/* Pipeline */
+.pipeline{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:30px 0;
+    flex-wrap:wrap;
+}
+
+/* Steps */
+.step{
+    text-align:center;
+    margin:15px;
+    transition:0.3s;
+}
+
+.step:hover{
+    transform:scale(1.15);
+}
+
+/* Icons */
+.step img{
+    width:60px;
+    filter: drop-shadow(0 0 10px #58a6ff);
+}
+
+/* Animated Arrow */
+.arrow{
+    font-size:32px;
+    color:#58a6ff;
+    animation: blink 1s infinite alternate;
+}
+
+@keyframes blink{
+    from{opacity:0.3;}
+    to{opacity:1;}
+}
+
+/* 🔥 Technologies (Oval badges) */
+.tech-container{
+    margin-top:15px;
+}
+
+.badge{
+    display:inline-block;
+    background:#21262d;
+    padding:10px 18px;
+    margin:8px;
+    border-radius:25px;
+    border:1px solid #30363d;
+    transition:0.3s;
+    font-size:14px;
+    font-weight:bold;
+    color:#c9d1d9;
+
+    /* 🔥 Glow effect same like pipeline */
+    box-shadow: 0 0 8px rgba(88,166,255,0.3);
+}
+
+.badge:hover{
+    background:#58a6ff;
+    color:black;
+    transform:scale(1.1);
+
+    /* 🔥 Strong glow on hover */
+    box-shadow: 0 0 15px #58a6ff, 0 0 25px rgba(88,166,255,0.6);
+}
+/* Footer */
+.footer{
+    margin-top:25px;
+    font-size:14px;
+    color:#8b949e;
+}
+
+/* Links */
+a{
+    color:#58a6ff;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🚀 DevOps CI/CD Deployment Project</h1>
+<p><b>Building automated deployment pipelines with modern DevOps tools.</b></p>
+
+<div class="container">
+
+<h2>🔄 DevOps Pipeline Workflow</h2>
+
+<div class="pipeline">
+
+<div class="step">
+<img src="Images/Github.png">
+<p>GitHub<br>Code Repository</p>
+</div>
+
+<div class="arrow">⟶</div>
+
+<div class="step">
+<img src="Images/Jenkins.png">
+<p>Jenkins<br>CI/CD Pipeline</p>
+</div>
+
+<div class="arrow">⟶</div>
+
+<div class="step">
+<img src="Images/docker.png">
+<p>Docker<br>Build Image</p>
+</div>
+
+<div class="arrow">⟶</div>
+
+<div class="step">
+<img src="Images/Nginx.jpg">
+<p>Nginx<br>Deploy Website</p>
+</div>
+
+</div>
+
+<h2>⚙️ Technologies Used</h2>
+
+<div class="tech-container">
+    <span class="badge">GitHub</span>
+    <span class="badge">Jenkins</span>
+    <span class="badge">Docker</span>
+    <span class="badge">Nginx</span>
+</div>
+
+<h2>💡 Project Objective</h2>
+
+<p>This project demonstrates how DevOps tools automate building, containerizing, and deploying applications using CI/CD pipelines.</p>
+
+<p>✨ Learning DevOps step-by-step by building real-world projects.</p>
+
+<div class="footer">
+
+<p><b>👩‍💻 Amirtha Devi.S</b></p>
+
+<p>🔗 GitHub Repository: 
+<a href="https://github.com/AmirthadeviS/static-website-devops" target="_blank">
+View Project
+</a>
+</p>
+
+<p>🚀 DevOps | Cloud | Automation Enthusiast</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
